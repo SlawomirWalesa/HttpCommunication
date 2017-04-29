@@ -41,8 +41,8 @@ public class TaskArrayAdapter extends ArrayAdapter<Task> {
         CheckBox checkBox = (CheckBox) convertView.findViewById(R.id.checkbox);
 
         index.setText(String.valueOf(position));
-        note.setText(String.valueOf(position));
-        checkBox.setChecked(true);
+        note.setText(task.getValue());
+        checkBox.setChecked(task.isCompleted());
 
 
         return convertView;
