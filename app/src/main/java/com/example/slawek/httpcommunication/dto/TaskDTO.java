@@ -18,6 +18,8 @@ public class TaskDTO {
         this.value = value;
     }
 
+    public TaskDTO(){}
+
     public boolean isCompleted() {
         return completed;
     }

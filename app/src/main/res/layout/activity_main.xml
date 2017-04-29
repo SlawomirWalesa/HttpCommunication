@@ -14,8 +14,10 @@
 
 
     <ListView
+        android:id="@+id/listView"
         android:layout_width="match_parent"
-        android:layout_height="370dp" />
+        android:layout_height="370dp"
+        android:scrollHorizontally="true"/>
 
     <EditText
         android:layout_width="match_parent"
@@ -28,7 +30,8 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Send"/>
+        android:text="Send"
+        android:id="@+id/sendButton"/>
 
 
 </LinearLayout>
